@@ -1,20 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T08:50:36.009Z" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Mobile/15E148 Safari/604.1" etag="zZ5eJbkxYSOFKEKjqumt" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T08:58:21.817Z" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Mobile/15E148 Safari/604.1" etag="bvz0MZ3-K8vb9sHWj8ZK" version="21.6.5" type="github">
   <diagram name="Page-1" id="x2TaYZ2TitNRqM9ajN3y">
-    <mxGraphModel dx="238" dy="729" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tHVzRUyvm80osLJFOGGi-6" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="218" y="175" width="100" height="60" as="geometry" />
+          <mxGeometry x="-45" y="235" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHVzRUyvm80osLJFOGGi-7" value="Left Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="396" y="76" width="100" height="60" as="geometry" />
+        <mxCell id="tHVzRUyvm80osLJFOGGi-40" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="123" y="70" width="480" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="tHVzRUyvm80osLJFOGGi-8" value="Middle Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="396" y="175" width="100" height="60" as="geometry" />
+        <mxCell id="tHVzRUyvm80osLJFOGGi-41" value="Left Team" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-40">
+          <mxGeometry x="20" width="460" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tHVzRUyvm80osLJFOGGi-9" value="Right Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="396" y="274" width="100" height="60" as="geometry" />
+        <mxCell id="tHVzRUyvm80osLJFOGGi-7" value="Left Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-41">
+          <mxGeometry x="55" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHVzRUyvm80osLJFOGGi-42" value="Middle Team" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-40">
+          <mxGeometry x="20" y="120" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHVzRUyvm80osLJFOGGi-8" value="Middle Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-42">
+          <mxGeometry x="55" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHVzRUyvm80osLJFOGGi-43" value="Right Team" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-40">
+          <mxGeometry x="20" y="240" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tHVzRUyvm80osLJFOGGi-9" value="Right Plate" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;" vertex="1" parent="tHVzRUyvm80osLJFOGGi-43">
+          <mxGeometry x="55" y="30" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
